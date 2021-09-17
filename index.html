@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<br lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>teste.pdf</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<br>
+<header id="header1">
+    <nav>
+        <a>Lista</a>
+        <a>Cadastro</a>
+    </nav>
+    <div class="inner1">
+        <h1>Cadastro</h1>
+    </div>
+</header>
+<form action="formulario.php" method="post" name="formulario" id="formulario">
+    <input type="text">Nome<br>
+    <input type="email">Email<br>
+    <input type="cpf">CPF<br>
+    <input type="text">Endereço
+    <input type="text">Estado<br>
+    <input type="number">CEP
+    <input type="text">Cidade<br>
+</form>
+<div class="pagamento">
+    <h3>Forma de Pagamento</h3>
+    <hr color=#EFF4F9>
+</div>
+<div class="botao">
+    <button type="button" onclick="clicou()">Cartão de Crédito</button>
+    <button type="button" onclick="clicou()">Boleto Bancário</button>
+</div>
+<br>
+
+<form action="formulario.php" method="post" name="formulario" id="pagamento">
+    <input type="name">Nome do Cartão
+    <input type="date">Data de Expiração<br>
+    <input type="number">Número do Cartão
+    <input type="number">Código de Seguraça<br>
+</form>
+<br>
+<a>Seu cartão será debitado em R$ 49,00</a></br>
+<br>
+<button type="button" color=blue onclick="clicou()">REALIZAR MATRÍCULA</button></br>
+<br>
+<a>Informações seguras e criptografadas</a>
+<br>
+
+
+<footer>
+    <a>Karine Esteves-2021</a>
+</footer>
+
+<header id="header2">
+    <nav>
+        <a>Lista</a>
+        <a>Cadastro</a>
+    </nav>
+    <div class="inner2">
+        <h1>Lista</h1>
+    </div>
+</header>
+<h3>Lista de Clientes</h3><br>
+<hr color=#EFF4F9>
+<form action="formulario.php" method="post" name="contato" id="listaclientes">
+    <input type="text">Nome do Cliente<br>
+</form>
+<table width="40%" borde="8" cellspacing="1" cellpadding="1" align="center" bordercolor="#000000">
+    <tr>
+        <th>Nome</th>
+        <th>Email</th>
+        <th>CPF</th>
+        <th>Criado em</th>
+    </tr>
+    <tr>
+        <td>Exemplo de nome1</td><br>
+        <td>exemplo@email1</td><br>
+        <td>000.000.000.-00</td><br>
+        <td>01/01/2021</td>
+    </tr>
+    <tr>
+        <td>Exemplo de nome2</td><br>
+        <td>exemplo@email2</td><br>
+        <td>000.000.000.-01</td><br>
+        <td>01/02/2021</td>
+    </tr>
+</table>
+
+<footer>Karine Esteves-2021</footer>
+</body>
+
+</html>
